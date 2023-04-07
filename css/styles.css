@@ -1,0 +1,124 @@
+@font-face {
+    font-family: "Uni Sans";
+    src: url(../fonts/uni-sans-font.otf);
+}
+
+@font-face {
+    font-family: "Uni Sans";
+    src: url(../fonts/uni-sans-font-bold.otf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Uni Sans";
+    src: url(../fonts/uni-sans-font-italic.otf);
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Uni Sans";
+    src: url(../fonts/uni-sans-font-bold-italic.otf);
+    font-weight: bold;
+    font-style: italic;
+}
+
+:root {
+    --offwhite: #c9c5c5;
+}
+
+body {
+    background-color: #20262E;
+    color: var(--offwhite);
+    font-family: "Uni Sans";
+}
+
+a:link {
+    color: #7fa9d1;
+}
+
+a:visited {
+    color: #7fa9d1;
+}
+
+hr {
+    border: none;
+    border-top: 0.5vh dotted var(--offwhite);
+    height: 0.1vh;
+    width: 10%;
+}
+
+#title-bio {
+    text-align: center;
+}
+
+#skills-content {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#skills-title {
+    text-align: center;
+}
+
+ul, ol {
+    display: table;
+    margin: 0 auto;
+}
+
+h3.hobbies-elements {
+    text-align: center;
+}
+
+hr.hobbies-elements, hr.contact-elements {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+input.contact-elements, textarea.contact-elements {
+    background-color: #20262E;
+    border-color: var(--offwhite);
+    border-radius: 5px;
+    color: var(--offwhite);
+
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+body.contact-elements {
+    text-align: center;
+}
+
+#book-stack-img, #education-content {
+    float:left;
+    display:inline;
+    width: 49%;
+}
+
+#book-stack-img {
+    width: 30vw;
+    height: 60vh;
+}
+
+h3.education-elements, h4.education-elements {
+    text-align: center;
+}
+
+#hobbies-title {
+    margin: 3vh;
+}
+
+input[type='text'] {
+    font-family: "Uni Sans";
+}
+
+input[type='submit'] {
+    font-family: "Uni Sans";
+}
+
+input[type='email'] {
+    font-family: "Uni Sans";
+}
+
+textarea.contact-elements {
+    font-family: "Uni Sans";
+}
